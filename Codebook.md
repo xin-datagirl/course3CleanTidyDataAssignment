@@ -1,0 +1,120 @@
+# Codebook of the Coursera Getting and Cleaning Data Course Assignment
+
+This codebook is to describe the data in the tidy_data.txt file.
+
+
+# Data identifiers
+
+  - subject: integer, from 1-30
+  - activity: string
+
+# Variables in columns
+- Mean of time-domain Body Accelerometer Measure
+    - timeDomainBodyAccelerometerMeanX 
+    - timeDomainBodyAccelerometerMeanY 
+    - timeDomainBodyAccelerometerMeanZ
+- Standard deviation of time-domain Body Accelerometer Measure
+    - timeDomainBodyAccelerometerStandardDeviationX
+    - timeDomainBodyAccelerometerStandardDeviationY
+    - timeDomainBodyAccelerometerStandardDeviationZ
+- Mean of time-domain Gravity Accelerometer Measure
+    - timeDomainGravityAccelerometerMeanX 
+    - timeDomainGravityAccelerometerMeanY 
+    - timeDomainGravityAccelerometerMeanZ
+- Standard deviation of time-domain Gravity Accelerometers
+    - timeDomainGravityAccelerometerStandardDeviationX
+    - timeDomainGravityAccelerometerStandardDeviationY
+    - timeDomainGravityAccelerometerStandardDeviationZ
+- Mean of time-domain Body Accelerometer Jerk
+    - timeDomainBodyAccelerometerJerkMeanX
+    - timeDomainBodyAccelerometerJerkMeanY
+    - timeDomainBodyAccelerometerJerkMeanZ
+- Standard Deviation of time-domain Body Accelerometer Jerk
+    - timeDomainBodyAccelerometerJerkStandardDeviationX
+    - timeDomainBodyAccelerometerJerkStandardDeviationY
+    - timeDomainBodyAccelerometerJerkStandardDeviationZ
+- Mean of time-domain Body Gyroscope 
+    - timeDomainBodyGyroscopeMeanX 
+    - timeDomainBodyGyroscopeMeanY 
+    - timeDomainBodyGyroscopeMeanZ 
+- Standard deviation of time-domain Body Gyroscope 
+    - timeDomainBodyGyroscopeStandardDeviationX
+    - timeDomainBodyGyroscopeStandardDeviationY
+    - timeDomainBodyGyroscopeStandardDeviationZ
+- Mean of time-domain Body Gyroscope Jerk
+    - timeDomainBodyGyroscopeJerkMeanX 
+    - timeDomainBodyGyroscopeJerkMeanY 
+    - timeDomainBodyGyroscopeJerkMeanZ
+- Standard deviation of time-domain Body Gyroscope Jerk
+    - timeDomainBodyGyroscopeJerkStandardDeviationX
+    - timeDomainBodyGyroscopeJerkStandardDeviationY
+    - timeDomainBodyGyroscopeJerkStandardDeviationZ
+- Mean and standard deviation of time-domain Body Accelerometer Magnitude
+    - timeDomainBodyAccelerometerMagnitudeMean
+    - timeDomainBodyAccelerometerMagnitudeStandardDeviation
+- Mean and standard deviation of time-domain Gravity Accelerometer Magnitude
+    - timeDomainGravityAccelerometerMagnitudeMean
+    - timeDomainGravityAccelerometerMagnitudeStandardDeviation
+- Mean and standard deviation of time-domain Body Accelerometer Jerk Magnitude
+    - timeDomainBodyAccelerometerJerkMagnitudeMean
+    - timeDomainBodyAccelerometerJerkMagnitudeStandardDeviation
+- Mean and standard deviation of time-domain Body Gyroscope Magnitude
+    - timeDomainBodyGyroscopeMagnitudeMean
+    - timeDomainBodyGyroscopeMagnitudeStandardDeviation
+- Mean and standard deviation of time-domain Body Gyroscope Jerk Magnitude
+    - timeDomainBodyGyroscopeJerkMagnitudeMean
+    - timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation
+- Mean of frequency-domain Body Accelerometer
+    - frequencyDomainBodyAccelerometerMeanX
+    - frequencyDomainBodyAccelerometerMeanY
+    - frequencyDomainBodyAccelerometerMeanZ
+- Standard deviation of frequency-domain Body Accelerometer
+    - frequencyDomainBodyAccelerometerStandardDeviationX
+    - frequencyDomainBodyAccelerometerStandardDeviationY
+    - frequencyDomainBodyAccelerometerStandardDeviationZ
+- Mean frequency of frequency-domain Body Accelerometer
+    - frequencyDomainBodyAccelerometerMeanFrequencyX
+    - frequencyDomainBodyAccelerometerMeanFrequencyY
+    - frequencyDomainBodyAccelerometerMeanFrequencyZ
+- Mean of frequency-domain Body Accelerometer Jerk
+    - frequencyDomainBodyAccelerometerJerkMeanX
+    - frequencyDomainBodyAccelerometerJerkMeanY
+    - frequencyDomainBodyAccelerometerJerkMeanZ
+- Standard deviation of frequency-domain Body Accelerometer Jerk
+    - frequencyDomainBodyAccelerometerJerkStandardDeviationX
+    - frequencyDomainBodyAccelerometerJerkStandardDeviationY
+    - frequencyDomainBodyAccelerometerJerkStandardDeviationZ
+- Mean frequency of frequency-domain Body Accelerometer Jerk
+    - frequencyDomainBodyAccelerometerJerkMeanFrequencyX
+    - frequencyDomainBodyAccelerometerJerkMeanFrequencyY
+    - frequencyDomainBodyAccelerometerJerkMeanFrequencyZ
+- Mean of frequency-domain Body Gyroscope
+    - frequencyDomainBodyGyroscopeMeanX 
+    - frequencyDomainBodyGyroscopeMeanY 
+    - frequencyDomainBodyGyroscopeMeanZ
+- Standard deviation of frequency-domain Body Gyroscope 
+    - frequencyDomainBodyGyroscopeStandardDeviationX
+    - frequencyDomainBodyGyroscopeStandardDeviationY
+    - frequencyDomainBodyGyroscopeStandardDeviationZ
+- Mean frequency of frequency-domain Body Gyroscope
+    - frequencyDomainBodyGyroscopeMeanFrequencyX
+    - frequencyDomainBodyGyroscopeMeanFrequencyY
+    - frequencyDomainBodyGyroscopeMeanFrequencyZ
+- Mean, standard deviation and mean frequency of frequency-domain Body Accelerometer Magnitude
+    - frequencyDomainBodyAccelerometerMagnitudeMean
+    - frequencyDomainBodyAccelerometerMagnitudeStandardDeviation
+    - frequencyDomainBodyAccelerometerMagnitudeMeanFrequency
+- Mean, standard deviation and mean frequency of frequency-domain Body Accelerometer Jerk
+    - frequencyDomainBodyAccelerometerJerkMagnitudeMean
+    - frequencyDomainBodyAccelerometerJerkMagnitudeStandardDeviation
+    - frequencyDomainBodyAccelerometerJerkMagnitudeMeanFrequency
+- Mean, standard deviation and mean fequency of frequency-domain Body Gyroscope Magnitude
+    - frequencyDomainBodyGyroscopeMagnitudeMean
+    - frequencyDomainBodyGyroscopeMagnitudeStandardDeviation
+    - frequencyDomainBodyGyroscopeMagnitudeMeanFrequency
+- Mean, standard deviation and mean frequency of frequency-domain Body Gyroscope Jerk Magnitude
+    - frequencyDomainBodyGyroscopeJerkMagnitudeMean
+    - frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation
+    - frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency
+
+
